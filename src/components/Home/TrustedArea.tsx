@@ -6,9 +6,9 @@ import path from "path";
 import Image from "next/image";
 
 export default async function TrustedArea() {
+  // get all images from folder
   const imageDirectory = path.join(process.cwd(), "/public/images/trusted");
   const images = await fs.readdirSync(imageDirectory);
-  console.log(images);
 
   return (
     <section className="-translate-y-10 z-10 bg-white">
