@@ -1,4 +1,5 @@
 import AboutArea from "@/components/Home/AboutArea";
+import CountdownArea from "@/components/Home/CountdownArea";
 import FAQArea from "@/components/Home/FAQArea";
 import HeroArea from "@/components/Home/HeroArea";
 import TeamArea from "@/components/Home/TeamArea";
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroArea />
       <TrustedArea />
       <AboutArea />
+      <CountdownArea />
       <section className="bg-[#0A85EA]">
         <div className="container mx-auto px-5 py-20">
           <div className="flex flex-col items-center gap-5 md:w-[700px] mx-auto">
