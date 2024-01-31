@@ -47,7 +47,7 @@ const FAQItem = ({
           isActive ? "max-h-[600px]" : "max-h-0"
         } overflow-hidden `}
       >
-        <p className="py-5">{ans}</p>
+        <p className="py-5 max-sm:text-sm">{ans}</p>
       </blockquote>
     </div>
   );
@@ -87,10 +87,10 @@ export default function FAQArea() {
     <section className="bg-[#F6F5F8]">
       <div className="container mx-auto px-5 py-20">
         <div className="flex flex-col gap-5">
-          <h1 className="text-4xl text-center font-bold text-[#0F0049]">
+          <h1 className="max-sm:text-2xl text-4xl text-center font-bold text-[#0F0049]">
             Frequently asked questions
           </h1>
-          <p className="text-center text-opacity-80">
+          <p className="text-center text-opacity-80 max-sm:text-sm">
             We haveput together some commonly asked questions
           </p>
         </div>

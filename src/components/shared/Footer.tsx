@@ -95,7 +95,7 @@ export default function Footer() {
     <footer className="bg-[#00063F]">
       {/* footer top */}
       <div className="container mx-auto px-5">
-        <div className="grid grid-cols-9 pb-10 pt-20">
+        <div className="grid md:grid-cols-9 pb-10 pt-20 gap-y-8">
           <div className="col-span-2 flex flex-col gap-5">
             <FooterMenu title="Company" menus={menu1} />
           </div>
@@ -117,7 +117,7 @@ export default function Footer() {
 
       {/* copyright */}
       <div className="container px-5 mx-auto">
-        <div className="flex items-center py-7 justify-between border-t border-white border-opacity-55">
+        <div className="flex max-sm:flex-col max-sm:gap-4 items-center py-7 justify-between border-t border-white border-opacity-55">
           <div className="">
             <p className="max-sm:text-sm text-base text-white font-medium">
               Copyright @2023 <Link href={"/"}>Aspire</Link>. All Rights

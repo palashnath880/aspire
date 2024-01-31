@@ -6,12 +6,12 @@ export default function HeroArea() {
     <section>
       <div className="max-lg:container lg:w-[900px] mx-auto px-5">
         <div className="py-20 flex flex-col items-center">
-          <h1 className="text-5xl text-center font-extrabold leading-snug">
+          <h1 className="text-2xl sm:text-4xl lg:text-5xl text-center font-extrabold leading-snug">
             Multipurpose Website Templates
             <br />
             That boost your sales
           </h1>
-          <p className="text-center text-black text-opacity-80 mt-4">
+          <p className="text-center max-sm:text-sm text-black text-opacity-80 mt-4">
             Empowering Your Financial Journey through Customized Asset
             Management Services
           </p>
@@ -21,9 +21,9 @@ export default function HeroArea() {
               <input
                 placeholder="Enter your work mail here"
                 type="email"
-                className="px-5 flex-1 !outline-none border-none max-sm:text-sm"
+                className="px-5 max-sm:pl-0 flex-1 !outline-none border-none max-sm:text-sm"
               />
-              <button className="px-5 py-2 bg-[#F63A61] text-white font-semibold max-sm:text-sm rounded-full">
+              <button className="px-5 max-sm:px-3 py-2 bg-[#F63A61] text-white font-semibold max-sm:text-sm rounded-full">
                 Get Started
               </button>
             </div>

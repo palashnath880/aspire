@@ -24,7 +24,7 @@ const CountDown = ({ value }: { value: number }) => {
           index++;
         }
         setCount(index);
-      }, 10000 / value);
+      }, 5000 / value);
     };
 
     observe = new IntersectionObserver((entries) => {
@@ -78,12 +78,12 @@ export default function CountdownArea() {
     <section>
       <div className="container mx-auto px-5 py-20">
         <div className="md:w-[700px] mx-auto">
-          <h1 className="text-4xl text-center font-bold text-[#0F0049] leading-snug">
+          <h1 className="max-md:text-3xl text-4xl text-center font-bold text-[#0F0049] leading-snug">
             Our 12 years of together have given us much to be proud of
           </h1>
         </div>
         <div className="mt-14">
-          <div className="grid grid-cols-4 gap-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {data.map(
               ({ content, icon, value: { first, middle, last } }, index) => (
                 <div

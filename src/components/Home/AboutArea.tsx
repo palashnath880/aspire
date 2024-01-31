@@ -6,9 +6,9 @@ export default function AboutArea() {
   return (
     <section className="bg-[#0A85EA]">
       <div className="mx-auto container px-5 py-20 lg:px-20">
-        <div className="flex gap-20">
-          <div className="flex flex-col w-[300px] gap-7">
-            <h1 className="text-4xl font-bold text-white leading-snug">
+        <div className="flex max-md:flex-col gap-20 max-md:gap-7">
+          <div className="flex flex-col md:w-[300px] gap-7">
+            <h1 className="max-sm:text-3xl text-4xl font-bold text-white leading-snug">
               About Our Company
             </h1>
             <Link

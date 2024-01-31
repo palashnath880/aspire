@@ -13,7 +13,7 @@ export default async function TrustedArea() {
   return (
     <section className="-translate-y-10 z-10 bg-white">
       <div className="container mx-auto px-5 py-20 flex flex-col gap-10">
-        <h1 className="text-4xl text-center font-bold">
+        <h1 className="max-sm:text-2xl text-4xl text-center font-bold">
           Trusted by 1000K plus customers
         </h1>
         <div className="w-full">
